@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapibaraLab</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__logo">
+                <img src="./assets/Logo.svg" />
+                <p>Современные методики диагностики</p>
+            </div>
+            <nav class="header__navigation">
+                <ul>
+                    <li><a href="#Laboratory">Лаборатория</a></li>
+                    <li><a href="#Galery">Галерея</a></li>
+                    <li><a href="#form-request">Оставить заявку</a></li>
+                </ul>
+            </nav>
+            <div class="header__contacts">
+                <a href="tel:+7 123 456 7890">
+                    <img src="./assets/Telephone.svg" />
+                    <div>
+                        <p>+7 123 456 7890</p>
+                        <p>Звонок бесплатный</p>
+                    </div>
+                </a>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__background">
+                <div class="main__details">
+                    <div class="main__wrapperLabel">
+                        <h1>Точные результаты</h1>
+                        <h1>Точно в срок</h1>
+                    </div>
+                    <div class="main__background-kapibara-image">
+                        <img src="./assets/00091-1209497817-Photoroom1.png" />
+                    </div>
+                </div>
+            </section>
+            <article class="main__article-about">
+                <p>
+                    Добро пожаловать в медицинскую лабораторию Kapibara<span>Lab</span>, где работают исключительно
+                    капибары —
+                    ваш надежный партнер в обеспечении качественной и точной диагностики!
+                </p>
+            </article>
+            <section class="main__about-lab" id="Laboratory">
+                <div class="main__info-about-Lab-container">
+                    <h1>Лаборатория</h1>
+                    <div class="main__Lab-description">
+                        <p>Наша лаборатория предлагает широкий спектр медицинских исследований, проводимых
+                            опытными
+                            капибарами-лаборантами. Мы специализируемся на анализе биоматериалов,
+                            микробиологических
+                            исследованиях, генетической диагностике и многом другом.</p>
+                        <p>Мы используем современное оборудование и методики и гарантируем точность и надежность
+                            результатов.
+                        </p>
+                        <button id="go-to-form">Оставить заявку
+                            <img src="./assets/Arrow.svg" /></button>
+                    </div>
+                    <img src="./assets/Kapibara.png" />
+                </div>
+            </section>
+            <div class="container">
+                <section class="main__gallery" id="Galery">
+                    <h1>Галерея</h1>
+                    <div class="main__gallery-item-wrapper">
+                        <img class="gallery-item-1" src="./assets/Rectangle 19.png" />
+                        <img class="gallery-item-2" src="./assets/Rectangle 21.png">
+                        <div class="gallery-item-3">
+                            <img src="./assets/Rectangle 22.png" />
+                            <img src="./assets/Rectangle 23.png" />
+                        </div>
+                        <div class="gallery-item-4">
+                            <img src="./assets/Rectangle 25.png" />
+                            <img src="./assets/Rectangle 26.png" />
+                        </div>
+                        <img class="gallery-item-5" src="./assets/Rectangle 24.png">
+                    </div>
+                </section>
+                <form class="main__form-request" id="form-request">
+                    <div class="main__form-request-container">
+                        <div class="main__form-request-heading-wrapper">
+                            <h1>Заявка</h1>
+                            <h1>на диагностику</h1>
+                        </div>
+                        <p>Доверьте свои медицинские исследования надежным капибарам-лаборантам и получите
+                            качественные
+                            результаты в кратчайшие сроки!</p>
+                        <div class="main__form-request-inputs">
+                            <div><input data-required='true' name="secondName" class="main__form-request-input-field"
+                                    placeholder="Фамилия" />
+                            </div>
+                            <div><input data-required='true' name="firstName" class="main__form-request-input-field"
+                                    placeholder="Имя" />
+                            </div>
+                            <div><input data-required='true' name="surname" class="main__form-request-input-field"
+                                    placeholder="Отчество" />
+                            </div>
+                        </div>
+                        <div class="main__form-request-button">
+                            <button>Отправить <img src="./assets/checkmark-medium.svg" /></button>
+                        </div>
+                    </div>
+                    <div class="main__form-request-succes">
+                        <img src="./assets/checkmark-big-circle.svg" />
+                        <p>Спасибо за предоставленную информацию, мы свяжемся с вами в ближайшее время.</p>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div>
+                <p>Все права защищены Российской Ассоциацией Капибар</p>
+            </div>
+            <div>
+                <img src="./assets/LogoFooter.svg" />
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
